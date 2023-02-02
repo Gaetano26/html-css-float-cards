@@ -20,12 +20,8 @@ h1 {
     padding-left: 43%;
 }
 
-main {
-    content: "";
-    display: table;
-    clear: both;
-    text-align: center;
-}
+
+
 
 .paragrafo {
     font-family: 'Fredoka', sans-serif;
@@ -36,17 +32,37 @@ main {
 }
 
 .contenitore{
-    margin-left: 7rem;
-}
-.celle {
+    content: "";
+    display: table;
+    clear: right;
+    padding-bottom: 100px;
+    padding-right: 200px;
+    padding-left: 200px;
     
-    float: left;
-    width: 25%;
-    border: 1px solid;
-    margin-top: 50px;
-    height: 100px;
-    margin-left: 50px;
+
+    
+    
     
    
 }
+.celle {
     
+    float:left;
+    width: calc(100% / 3);
+    border: 1px solid black;
+    margin-top: 60px;
+    padding-right: 50px;
+    height: 100px; 
+    
+
+   
+    
+    
+
+    
+}
+.immagini {
+    width: 50%;
+    height: 100%;
+}
+
