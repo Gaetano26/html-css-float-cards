@@ -10,11 +10,8 @@
     --colore-testo-celle: #ffffff;
 }
 
-.container {
-    max-width: 1200px;
-    margin:0 auto;
-    padding: 10px;
-}
+
+
 h1 {
     font-family: 'Fredoka', sans-serif;
     padding-left: 43%;
@@ -31,38 +28,54 @@ h1 {
     
 }
 
-.contenitore{
-    content: "";
-    display: table;
-    clear: right;
-    padding-bottom: 100px;
-    padding-right: 200px;
-    padding-left: 200px;
-    
+.contenitore1 >{
+       max-width: 1200px;
+       margin:0 auto;
+       padding: 10px;
+       content: "";
+       display: table;
+       clear: both;
+       
+}
+
+
 
     
     
     
    
-}
+
 .celle {
     
     float:left;
-    width: calc(100% / 3);
+    width: 27%;
     border: 1px solid black;
-    margin-top: 60px;
-    padding-right: 50px;
-    height: 100px; 
-    
+    margin-top: 50px;
+    height: 90px; 
+    margin-left: 40px;
+      
+}
 
-   
-    
-    
+.testo-cella {
+    float: right;
+}
 
+.marco{
+    padding-right: 16%;
+    padding-top: 5%;
+}
+
+.laura {
+
+  padding-right: 20%;
+  padding-top: 5%;
     
 }
+
+
+
 .immagini {
-    width: 50%;
+    width: 34%;
     height: 100%;
 }
 
