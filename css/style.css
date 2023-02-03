@@ -1,8 +1,11 @@
+/*Regole generali dell'intera pagina*/
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
+/*Root dei colori*/
 :root {
     --titolo: #8d284b;
     --background-celle: #0f0e17;
@@ -11,69 +14,119 @@
 }
 
 
-
+/*modifica posizione e stile del titolo*/
 h1 {
     font-family: 'Fredoka', sans-serif;
     padding-left: 43%;
+    color: var(--titolo);
+    padding-top: 10px;
 }
 
 
 
-
+/*modifica posizione e stile del paragrafo*/
 .paragrafo {
     font-family: 'Fredoka', sans-serif;
     margin-top: 50px;
-    padding-left: 10%;
-    padding-right: 10%;
+    padding-left: 17%;
+    padding-right: 17%;
+    text-align: center;
     
 }
 
-.contenitore1 >{
+/*modifiche contenitore n.1*/
+.container1 {
        max-width: 1200px;
        margin:0 auto;
-       padding: 10px;
+       padding: 20px;
+       content: "";
+       display: table;
+       clear: both;
+       
+       
+       
+}
+
+
+/*modifiche contenitore n.2*/
+.container2 {
+    max-width: 1200px;
+       margin:0 auto;
+       padding: 20px;
        content: "";
        display: table;
        clear: both;
        
 }
 
-
-
     
     
     
    
-
+/*modifiche generali delle celle*/
 .celle {
     
     float:left;
     width: 23%;
-    border: 1px solid black;
     margin-top: 50px;
-    height: 90px; 
-    margin-left: 40px;
+    height: 100px; 
+    margin-left: 7rem;
+    color: var(--colore-testo-celle);
+    background-color: var(--background-celle);
+    font-family: 'Fredoka', sans-serif;
+    
       
 }
 
+/*posizionamento float di tutte le celle*/
 .testo-cella {
     float: right;
 }
 
+
+/*modifica posionamento testo della cella marco*/
 .marco{
-    padding-right: 16%;
+    padding-right: 13%;
     padding-top: 5%;
 }
 
+/*modifica posionamento testo della cella laura*/
 .laura {
 
-  padding-right: 22%;
+  padding-right: 19%;
   padding-top: 5%;
     
 }
 
+/*modifica posionamento testo della cella giorgio*/
+.giorgio {
+    padding-right: 15%;
+    padding-top: 5%;
+}
 
 
+/*modifica posionamento testo della cella marta*/
+.marta{
+
+    padding-right: 16%;
+    padding-top: 5%;
+}
+
+/*modifica posionamento testo della cella roberto*/
+.roberto{
+    padding-right: 13%;
+    padding-top: 5%;
+
+}
+
+/*modifica posionamento testo della cella daniela*/
+.daniela {
+    padding-right: 15%;
+    padding-top: 5%;
+
+}
+
+/*modifica delle dimensione di tutte le immagini contenute in tutte le celle*/
 .immagini {
     width: 34%;
     height: 100%;
